@@ -19,3 +19,9 @@ class Card:
         print('이 카드는 포커 카드를 표현하는 클래스입니다.')
         print(f'우리가 만든 카드의 가로 길이는 {cls.width} 입니다.') # 해당 클래스의 클래스 변수를 끌어다 쓰려는상황.
         print(f'세로 길이는 {cls.height} 입니다.')
+        
+    
+    @staticmethod
+    def print_class_info():
+        print('이 카드는 포커 카드를 표현하는 클래스입니다.')
+        print(f'우리가 만든 카드의 가로 길이는 {width} 입니다.')
